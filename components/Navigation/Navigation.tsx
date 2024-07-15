@@ -32,7 +32,13 @@ export const Navigation = ({ fields }: INavigation) => {
           <div className="flex justify-start">
             <Link href="/">
               <span className="sr-only">Workflow</span>
-              <Image src={Logo as string} width={175} height={57} alt="Logo" />
+              <Image
+                src={Logo as string}
+                width={175}
+                height={57}
+                alt="Logo"
+                className="bg-black p-3"
+              />
             </Link>
           </div>
 
